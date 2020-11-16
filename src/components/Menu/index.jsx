@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
+import { Link } from 'react-router-dom'
 import './index.css'
 
 function Menu(){
@@ -11,10 +12,10 @@ function Menu(){
             <div className="items-right">
                 <nav>
                     <ul className="list-menu">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Surprise</li>
+                        <Link to="/"><li>Home</li></Link>
+                        <Link to="/"><li>About</li></Link>
+                        <Link to="/"><li>Contact</li></Link>
+                        <Link to="/"><li>Surprise</li></Link>
                     </ul>
                 </nav>
             </div>

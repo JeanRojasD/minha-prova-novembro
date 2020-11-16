@@ -13,11 +13,12 @@ function Footer(){
                 <div className="footer-contacts">
                     <h2>Contacts</h2>
                     <ul>
-                        <li>
-                            Email: 
+                        <li className="footer-text">
+                            <p>Email:</p>
                             <a href="mailto:jeanrojas2007@outlook.com" target="_blank" rel="noreferrer">jeanrojas2007@outlook.com</a>
                         </li>
-                        <li>Phone: 
+                        <li className="footer-text">
+                            <p>Phone:</p> 
                             <a href="tel:+55 (45) 999405679" target="_blank" rel="noreferrer">+55 (45) 999405679</a>
                         </li>
                     </ul>
