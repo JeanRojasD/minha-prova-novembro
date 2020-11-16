@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #001021;
+    align-items: center;
+}
+
+.footer-contacts{
+    color: white;
+}
+
+.footer-logo img{
+    width: 300px;
+}
+
+.footer-images{
+    display: flex;
+    flex-direction: row;
+}
+.footer-social li img{
+    width: 40px;
+    padding: 20px;
+}
+
+.footer-copyright{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+}

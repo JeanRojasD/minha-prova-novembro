@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items-left img{
+    width: 100px;
+}
+
+.list-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-menu li{
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
