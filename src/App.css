@@ -4,3 +4,10 @@ body, ul, li, a{
   margin: 0px;
   text-decoration: none;
 }
+
+button{
+  background: none;
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+}

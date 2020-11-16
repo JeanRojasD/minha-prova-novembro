@@ -9,6 +9,7 @@
     justify-content: space-around;
     background-color: #001021;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-contacts{

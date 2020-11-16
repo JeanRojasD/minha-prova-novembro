@@ -6,8 +6,8 @@ import instagram from '../../assets/images/instagram.png'
 import twitter from '../../assets/images/twitter.png'
 
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <div className="footer">
             <div className="footer-content">
                 <div className="footer-contacts">
@@ -18,7 +18,7 @@ function Footer(){
                             <a href="mailto:jeanrojas2007@outlook.com" target="_blank" rel="noreferrer">jeanrojas2007@outlook.com</a>
                         </li>
                         <li className="footer-text">
-                            <p>Phone:</p> 
+                            <p>Phone:</p>
                             <a href="tel:+55 (45) 999405679" target="_blank" rel="noreferrer">+55 (45) 999405679</a>
                         </li>
                     </ul>
@@ -35,7 +35,7 @@ function Footer(){
                 </div>
             </div>
             <div className="footer-copyright">
-            <p>Copyright - Jean's Programs</p>
+                <p>© Copyright - Jean's Program</p>
             </div>
         </div>
     );
